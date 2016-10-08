@@ -1,0 +1,17 @@
+[
+  {
+    "email": "user@test.com",
+    "password": "12345",
+    "roles": ["user"]
+  },
+  {
+    "email": "manager@test.com",
+    "password": "12345",
+    "roles": ["manager"]
+  },
+  {
+    "email": "secret@test.com",
+    "password": "12345",
+    "roles": ["secret"]
+  }
+]

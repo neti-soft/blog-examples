@@ -1,0 +1,27 @@
+[
+  {
+    "path" : "/CommonDocuments",
+    "read": ["user", "manager"],
+    "write": ["manager"]
+  },
+  {
+    "path" : "/ManagersFolder",
+    "read": ["manager"],
+    "write": ["manager"]
+  },
+  {
+    "path" : "/UsersFolder",
+    "read": ["user"],
+    "write": ["user"]
+  },
+  {
+    "path" : "/Public",
+    "read": [],
+    "write": []
+  },
+  {
+    "path" : "/Documents/Secret",
+    "read": ["secret"],
+    "write": ["secret"]
+  }
+]
